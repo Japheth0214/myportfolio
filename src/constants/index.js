@@ -173,7 +173,7 @@ const experiences = [
     company_name: "RJ Globus Solutions",
     icon: rj,
     iconBg: "#E6DEDD",
-    date: "Feb 2019 - Aug 2019",
+    date: "Feb - Aug 2019",
     points: [
       "Providing assistance thru emails and chats for those who want to return their item and would like to get a refund or replacement for faulty and damage items",
     ],
@@ -186,7 +186,7 @@ const testimonials = [
       "I thought it was impossible to make a website as beautiful as our product, but you proved me wrong.",
     name: "Jannah Gilleine",
     designation: "Back End Developer",
-    company: "Douhle House",
+    company: "Döhle Shipmanagement Phils. Corp.",
     image: user1,
   },
   {
@@ -194,7 +194,7 @@ const testimonials = [
       "I've never met a web developer who truly cares about their clients' success is what he does.",
     name: "James Arcilla",
     designation: "Web Developer",
-    company: "DEF Corp",
+    company: "Upwork Inc.",
     image: user2,
   },
   {
