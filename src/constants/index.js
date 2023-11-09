@@ -231,7 +231,7 @@ const projects = [
       },
     ],
     image: realestate,
-    source_code_link: "https://https://real-estate-com-u6ln.onrender.com/",
+    source_code_link: "https://real-estate-com-u6ln.onrender.com/",
   },
   {
     name: "Ecommerce site",
