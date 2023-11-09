@@ -22,6 +22,7 @@ import {
   jira,
   user1,
   user2,
+  user3,
 
 
   realestate,
@@ -191,7 +192,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success is what he does.",
+      "I've never met a web developer who truly cares about their clients success, You are highly appreciated",
     name: "James Arcilla",
     designation: "Web Developer",
     company: "Upwork Inc.",
@@ -199,11 +200,11 @@ const testimonials = [
   },
   {
     testimonial:
-      "After you optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After you test our website, we are able to deploy the website successfully. We can't thank you enough!",
+    name: "Liza Soberano",
+    designation: "Product Owner",
+    company: "Star Magic PH",
+    image: user3,
   },
 ];
 

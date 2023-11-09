@@ -38,6 +38,8 @@ import tasklist from "./tasklist.png";
 
 import user1 from "./user1.jpg";
 import user2 from "./user2.jpg";
+import user3 from "./user3.jpg";
+
 
 
 export {
@@ -76,5 +78,6 @@ export {
   tasklist,
   user1,
   user2,
+  user3,
 
 };
