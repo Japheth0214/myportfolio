@@ -31,14 +31,14 @@ const handleSubmit = (e) => {
 
   // Check if any of the form fields is empty
   if (!form.name || !form.email || !form.message) {
-    alert("Please fill out all the fields before sending the message.");
+    alert("🚫 Oops! Please fill out all the fields before sending the message.");
     return;
   }
 
   // Validate email format
-  const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  const emailRegex = /^([a-zA-Z0-9\._]+)@([a-zA-z0-9])+.([a-z]+)(.[a-z]+)?$/
   if (!emailRegex.test(form.email)) {
-    alert("Please enter a valid email address.");
+    alert("📧 Oops! Please enter a valid email address.");
     return;
   }
 
@@ -60,7 +60,9 @@ const handleSubmit = (e) => {
       .then(
         () => {
           setLoading(false);
-          alert("Message Successfully Sent. I will get back to you as soon as possible.");
+          alert("Success! 🎉 Your message has been sent successfully. \nI'll get back to you as soon as possible. Thank you!");
+
+
 
           setForm({
             name: "",
