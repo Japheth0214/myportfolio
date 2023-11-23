@@ -15,10 +15,6 @@ const Contact = () => {
     message: "",
   });
 
-  //template id: template_5vosfmc
-  //service ID: service_insuw9h
-  //0ltW81V9xijzvVmDR
-
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
