@@ -1,0 +1,7 @@
+version: 0.1
+buildCommand: "npm run build"
+startCommand: "npm start"
+nodeVersion: 14
+env:
+  - key: PORT
+    value: "4173"
