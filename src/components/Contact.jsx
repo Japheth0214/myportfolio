@@ -35,23 +35,23 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
-        'service_insuw9h',
-        'template_5vosfmc',
-        {
-          from_name: form.name,
-          to_name: "Japheth",
-          from_email: form.email,
-          to_email: "japarcillians@gmail.com",
-          message: form.message,
-        },
-         '0ltW81V9xijzvVmDR'
-      )
+  emailjs
+  .send(
+    import.meta.env.VITE_REACT_APP_EMAILJS_SERVICE_ID,
+    import.meta.env.VITE_REACT_APP_EMAILJS_TEMPLATE_ID,
+    {
+      from_name: form.name,
+      to_name: "Japheth",
+      from_email: form.email,
+      to_email: "japarcillians@gmail.com",
+      message: form.message,
+    },
+    import.meta.env.VITE_REACT_APP_EMAILJS_USER_ID
+  )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Thank you for your interest in my application. I will get back to you as soon as possible.");
 
           setForm({
             name: "",
