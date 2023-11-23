@@ -26,10 +26,23 @@ const Contact = () => {
       [name]: value,
     });
   };
+const handleSubmit = (e) => {
+  e.preventDefault();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
+  // Check if any of the form fields is empty
+  if (!form.name || !form.email || !form.message) {
+    alert("Please fill out all the fields before sending the message.");
+    return;
+  }
+
+  // Validate email format
+  const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  if (!emailRegex.test(form.email)) {
+    alert("Please enter a valid email address.");
+    return;
+  }
+
+  setLoading(true);
 
   emailjs
   .send(
@@ -47,7 +60,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you for your interest in my application. I will get back to you as soon as possible.");
+          alert("Message Successfully Sent. I will get back to you as soon as possible.");
 
           setForm({
             name: "",
