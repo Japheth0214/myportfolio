@@ -5,9 +5,9 @@
   "type": "module",
  "scripts": {
   "dev": "vite --host",
-  "build": "npm install && vite build",
+  "build": "vite build",
   "preview": "vite preview",
-  "start": "vite preview"
+  "start": "vite build && serve dist"
 },
   "dependencies": {
     "vite": "^4.5.0",
