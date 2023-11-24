@@ -1,11 +1,8 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import coursera from "./coursera.png";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -40,10 +37,7 @@ import user3 from "./user3.jpg";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
+  coursera,
   github,
   menu,
   close,

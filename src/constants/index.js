@@ -1,8 +1,5 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  coursera,
   javascript,
   java,
   html,
@@ -48,21 +45,70 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    title: "Web Developer",
-    icon: web,
+ {
+    title: " Software Testing & Automation",
+    icon: coursera,
+    source_code_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/4J485FZ2BXG8"
   },
   {
-    title: "React Developer",
-    icon: mobile,
+    title: "Web & Mobile Testing w/ Selenium",
+    icon: coursera,
+    source_code_link: "https://www.coursera.org/account/accomplishments/verify/8SWXAB4SFAS3"
+  },
+ {
+    title: "Black-box & White-box Testing",
+    icon: coursera,
+    source_code_link: "https://www.coursera.org/account/accomplishments/verify/NPQLT42LXJ6G"
+  },
+    {
+    title: "Intro: Automated Analysis",
+    icon: coursera,
+    source_code_link: "https://www.coursera.org/account/accomplishments/verify/YGHJ5GF8C4MK"
+  },
+   {
+    title: "Intro: Software Testing",
+    icon: coursera,
+    source_code_link: "https://www.coursera.org/account/accomplishments/verify/TJVVNB72X948"
   },
   {
-    title: "Software Quality Analyst",
-    icon: backend,
+    title: "Agile with Atlassian Jira",
+    icon: coursera,
+    source_code_link: "https://www.coursera.org/account/accomplishments/verify/6XBWNREF3DN7"
   },
   {
-    title: " Manual Automation Testing",
-    icon: creator,
+    title: "Manual Software Testing",
+    icon: udemy,
+    source_code_link:"https://www.udemy.com/certificate/UC-1b7fdb62-42ec-482d-8b92-2baf9b48d42e/"
+  },
+  {
+    title: " Software Testing with JIRA & Agile",
+    icon: udemy,
+    source_code_link:"https://www.udemy.com/certificate/UC-c098dcf8-f9f1-4d8f-b802-fa9cbfc9b08e/"
+  },
+  {
+    title: "React Basics",
+    icon: coursera,
+    source_code_link: "https://www.coursera.org/account/accomplishments/verify/NRT48KTAWYGR"
+  },
+  {
+    title: "Advanced React",
+    icon: coursera,
+    source_code_link:"https://www.coursera.org/account/accomplishments/verify/LJ5SJAYPE7EH"
+  },
+  {
+    title: "Front End Developer Capstone",
+    icon: coursera,
+    source_code_link: "https://www.coursera.org/account/accomplishments/verify/29NBSVKFF44J"
+  },
+  {
+    title: "Git and GitHub",
+    icon: coursera,
+    source_code_link:"https://www.coursera.org/account/accomplishments/verify/YCGDGBPTUN82"
+  },
+    {
+    title: "Full Stack Web Dev Bootcamp(MERN)",
+    icon: udemy,
+    source_code_link:"https://www.udemy.com/certificate/UC-d5eac99b-b8eb-41ef-ae93-70913f85aa98/"
   },
 ];
 
