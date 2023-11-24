@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
- "scripts": {
-  "dev": "vite --host",
-  "build": "vite build",
-  "preview": "vite preview",
-  "start": "vite build && serve dist"
-},
+  "scripts": {
+    "dev": "npx vite --host",
+    "build": "npx vite build",
+    "preview": "npx vite preview",
+    "start": "npx vite build && serve dist"
+  },
   "dependencies": {
     "vite": "^4.5.0",
     "@emailjs/browser": "^3.11.0",
