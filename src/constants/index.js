@@ -26,6 +26,7 @@ import {
   ecommerce,
   tasklist,
   express,
+  littlelemon,
 
 } from "../assets";
 
@@ -261,24 +262,34 @@ const projects = [
       "Real estate website offers a comprehensive platform for users to browse, buy, sell, and rent properties effortlessly. Utilizing the power of the MERN stack - MongoDB for robust data storage, Express.js for efficient server-side handling, React for seamless and dynamic user interfaces, and Node.js for scalable and high-performance back-end operations.",
     tags: [
       {
-        name: "React",
+        name: "Full Stack",
         color: "blue-text-gradient",
       },
       {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Express JS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Node JS",
+        name: "MERN Website",
         color: "orange-text-gradient",
       },
     ],
     image: realestate,
     source_code_link: "https://real-estate-com-u6ln.onrender.com/",
+  },
+   {
+    name: "Little Lemon Project",
+    description:
+      "This website demonstrates the implementation of a booking application on the Little Lemon Website, utilizing React components to showcase a solid understanding of React in web development. The project also highlights the integration of API calls, adding functionality and enhancing the overall user experience.",
+    tags: [
+    
+         {
+        name: "Frontend React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: " UI /UX Design",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: littlelemon,
+    source_code_link: "https://little-lemon-app-m0qh.onrender.com/",
   },
   {
     name: "Ecommerce site",
@@ -301,27 +312,7 @@ const projects = [
     image: ecommerce,
     source_code_link: "https://japheth0214.github.io/shopping-cart/index.html",
   },
-  {
-    name: "Simple Task List",
-    description:
-      "Our simple CRUD Task list application provides users with a straightforward interface to create, read, update, and delete tasks, accompanied by clear error messages for any issues that may arise. It enables users to effortlessly add new tasks, view the existing tasks, update the status or details of the tasks, and delete tasks upon completion.",
-    tags: [
-      {
-        name: "HTMML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: tasklist,
-    source_code_link: "https://japheth0214.github.io/task-list/",
-  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

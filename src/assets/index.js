@@ -28,6 +28,7 @@ import rj from "./company/rj.png";
 import realestate from "./realestate.png";
 import ecommerce from "./ecommerce.png";
 import tasklist from "./tasklist.png";
+import littlelemon from "./littlelemon.png";
 
 import user1 from "./user1.jpg";
 import user2 from "./user2.jpg";
@@ -61,6 +62,7 @@ export {
   rj,
   realestate,
   ecommerce,
+  littlelemon,
   tasklist,
   user1,
   user2,
